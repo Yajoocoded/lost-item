@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- This is for 'language' like fil (filipino) -->
+<head>
+<meta charset="UTF-8"> <!-- always put this for emojis -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- always put this too, so it can adjust whaevah device you're using -->
+
+<title>Lost Item ♡</title> <!-- this is the browser's tab title -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- these too simply make loading a little faster for fonts na galing kay google -->
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet"> <!-- this is where our fonts that we use came from -->
+
+<style> <!-- this is where css starts -->
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:
+linear-gradient(#fff9fb,#fff3f6);
+
+font-family:'Quicksand',sans-serif;
+
+display:flex; <!-- this makes arranging items much easier -->
+
+justify-content:center; <!-- center horizontally -->
+
+align-items:center; <!-- center vertically -->
+
+min-height:100vh;
+
+padding:25px;
+
+color:#7a5f63;
+
+}
+
+.card{ <!-- remember .(dot) means class -->
+
+background:#fffdfd; <!-- card color -->
+
+max-width:430px;
+
+width:100%;
+
+padding:35px;
+
+border-radius:50px; <!-- rounded corners -->
+
+border:4px solid #ffe5ec;
+
+box-shadow:
+
+0 15px 35px rgba(255,182,193,.25); <!-- makes the card float and not look flat -->
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.card::before{
+
+content:"🎀";
+
+position:absolute;
+
+left:18px;
+
+top:15px;
+
+font-size:24px;
+
+}
+
+.card::after{
+
+content:"🎀";
+
+position:absolute;
+
+right:18px;
+
+top:15px;
+
+font-size:24px;
+
+}
+
+.icon{
+
+width:95px;
+
+height:95px;
+
+margin:auto;
+
+border-radius:50%;
+
+background:#fff1f5;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:48px;
+
+border:3px solid #ffd8e4;
+
+}
+
+h1{
+
+font-family:'Fredoka',sans-serif;
+
+font-size:42px;
+
+text-align:center;
+
+margin-top:20px;
+
+color:#8b6d72;
+
+}
+
+.owner{
+
+margin-top:12px;
+
+text-align:center;
+
+font-size:18px;
+
+font-weight:700;
+
+color:#d16b90;
+
+}
+
+.message{
+
+margin-top:22px;
+
+line-height:1.8;
+
+text-align:center;
+
+font-size:17px;
+
+}
+
+.divider{
+
+margin:28px auto;
+
+width:90%;
+
+border-top:2px dashed #ffd6e2;
+
+}
+
+.buttons{
+
+display:grid;
+
+gap:15px;
+
+}
+
+.button{
+
+text-decoration:none;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:16px;
+
+background:#f7b6cc;
+
+color:white;
+
+font-weight:700;
+
+border-radius:18px;
+
+transition:.25s; 
+
+font-size:17px;
+
+}
+
+.button:hover{
+
+transform:translateY(-3px);
+
+background:#ef94b5;
+
+}
+
+.secondary{
+
+background:#fff4f7;
+
+color:#8b6d72;
+
+border:2px solid #ffd6e2;
+
+}
+
+.secondary:hover{
+
+background:#ffe7ef;
+
+}
+
+.footer{
+
+margin-top:28px;
+
+text-align:center;
+
+font-size:15px;
+
+line-height:1.7;
+
+color:#9f8d91;
+
+}
+
+.small{
+
+margin-top:15px;
+
+font-size:13px;
+
+text-align:center;
+
+color:#c4a8af;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="icon">
+💗
+</div>
+
+<h1>Lost Item?</h1>
+
+<div class="owner">
+♡ This belongs to ♡
+<br>
+<strong>Pauline Marcelo</strong>
+</div>
+
+<p class="message">
+
+Hello! 🌸
+
+If you've found this item, thank you so much for taking the time to scan the QR code.
+
+I'd truly appreciate it if you could contact me using any of the options below.
+
+Thank you for your kindness! 🤍
+
+</p>
+
+<div class="divider"></div>
+
+<div class="buttons">
+
+<a class="button"
+href="mailto:cpaulinemarcelo@email.com">
+💌 Email Me
+</a>
+
+<a class="button secondary"
+href="https://www.facebook.com/pauline.marcelo.31176">
+💬 Messenger
+</a>
+
+<a class="button secondary"
+href="https://instagram.com/cpauii">
+📷 Instagram
+</a>
+
+</div>
+
+<div class="footer">
+
+♡ Every returned notebook means a lot to me.
+
+Thank you for helping it find its way home.
+
+</div>
+
+<div class="small">
+
+Made with lots of appreciation ♡
+
+</div>
+
+</div>
+
+</body>
+</html>
